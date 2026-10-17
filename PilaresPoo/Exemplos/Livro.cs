@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace PilaresPoo.Exemplos
+{
+    internal class Livro
+    {
+
+        public string Titulo;
+        public string Autor;
+        public int Paginas;
+
+        public Livro(string titulo, string autor, int paginas)
+        {
+            this.Titulo = titulo;
+            this.Autor = autor;
+            this.Paginas = paginas;
+        }
+   
+
+    public void Exibir()
+        {
+            Console.WriteLine($"{Titulo} , {Autor} {Paginas}");
+        }
+    }
+}
